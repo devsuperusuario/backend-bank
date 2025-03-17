@@ -1,0 +1,40 @@
+# 🐍 Virtual environments (evita subir entornos virtuales)
+venv/
+env/
+
+# 🚀 Archivos compilados de Python
+__pycache__/
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+
+# 📦 Dependencias instaladas desde pip (se regeneran con `requirements.txt`)
+*.egg-info/
+*.dist-info/
+
+# 🔧 Configuración de VS Code y PyCharm
+.vscode/
+.idea/
+*.iml
+
+# 🏗 Archivos de compilación y caché
+build/
+dist/
+
+# 📜 Logs y archivos temporales
+*.log
+*.out
+*.tmp
+logs/
+temp/
+
+# 🔐 Archivos sensibles (variables de entorno y credenciales)
+.env
+.env.local
+*.secret
+*.key
+*.pem
+
+
+.DS_Store
